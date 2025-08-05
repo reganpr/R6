@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    </script>
+</head>
+<style>
+    .bg-color{
+        background-color: rgb(52, 52, 52);
+    }
+</style>
+
+<body class="bg-color">
+    <div class="min-h-screen flex justify-center items-center [-6]">
+        <div class="relative w-full max-w-md">
+            <div
+                class="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-600 -skew-y-6 sm:skew-y-0 sm:-rotate-6 rounded-3x1 shadow-lg">
+            </div>
+            <div class="relative bg-gray-600 shadow-lg p-8 rounded-3x1 sm:p-10">
+                <h1 class="text-2x1 text-white font-bold text-center wb-6">Login</h1>
+                <h1 class="text-2x1 text-white text-center wb-6">Welcome back!</h1>
+                <div class="space-y-6">
+                    <div class="relative">
+                        <input type="email" id="email" name="email" placeholder="Email"
+                            class="w-full peer border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:border-violet-500 placeholder-transparent h-10">
+                        <label for="email"
+                            class="absolute left-0 -top-3 text-gray-500 text-sm peer-placeholder-shown:top-2 transition-all peer-focus:-top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:text-sm peer-focus:text-gray-600">Email</label>
+                    </div>
+                    <div class="relative">
+                        <input type="password" id="password" name="password" placeholder="Password"
+                            class="w-full peer border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:border-violet-500 placeholder-transparent h-10">
+                        <label for="password"
+                            class="absolute left-0  -top-3 text-gray-500 text-sm peer-placeholder-shown:top-2 transition-all peer-focus:-top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:text-sm peer-focus:text-gray-600">Password</label>
+                    </div>
+                    
+                    <button class="w-full bg-blue-500 text-white rounded-md py-2 text-center hover:bg-violet-600 transition">Login</button>
+                    <div class="register-link text-white">
+                Need an account? <a class="hover:underline text-blue-400" href="#">Sign up</a>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
